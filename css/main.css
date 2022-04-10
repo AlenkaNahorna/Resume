@@ -29,7 +29,7 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -44,6 +44,7 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
+    flex-direction: row-reverse;
   }
 }
 
@@ -56,7 +57,19 @@ body {
 .Main_content {
   background-color: #ffffff;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 60px 80px;
+  padding: 10px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .Main_content {
+    padding: 20px 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .Main_content {
+    padding: 60px 80px;
+  }
 }
 
 .about {
@@ -88,7 +101,13 @@ body {
 }
 
 .projects {
-  margin-bottom: 50px;
+  margin: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    margin-bottom: 50px;
+  }
 }
 
 .projects__list {
@@ -127,7 +146,13 @@ body {
 }
 
 .work {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .work {
+    margin-bottom: 40px;
+  }
 }
 
 .work__position {
@@ -206,18 +231,43 @@ body {
 
 .sidebar {
   background-color: #1e2939;
-  padding-top: 40px;
-  width: 300px;
+  padding: 40px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar-mobile {
+  background-color: #1e2939;
+  padding: 30px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar-mobile {
+    display: none;
+  }
 }
 
 .thumb {
-  height: 354px;
-  width: 100%;
+  max-height: 480px;
+  max-width: 480px;
+  margin: 0 auto 30px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .thumb {
+    height: 380px;
+    width: 300px;
+    margin-bottom: 50px;
+  }
 }
 
 .photo {
-  object-fit: cover;
-  margin-bottom: 50px;
+  max-height: 480px;
+  margin: 0 auto;
 }
 
 .contacts,
@@ -227,7 +277,13 @@ body {
 }
 
 .contacts {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .contacts {
+    margin-bottom: 50px;
+  }
 }
 
 .sidebar-title {
@@ -254,7 +310,13 @@ body {
 }
 
 .tech_skills {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .tech_skills {
+    margin-bottom: 45px;
+  }
 }
 
 .tech-skills-list,
