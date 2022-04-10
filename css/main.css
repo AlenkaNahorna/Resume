@@ -210,6 +210,11 @@ body {
   width: 300px;
 }
 
+.thumb {
+  height: 354px;
+  width: 100%;
+}
+
 .photo {
   object-fit: cover;
   margin-bottom: 50px;
