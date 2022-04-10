@@ -1,0 +1,35 @@
+.work {
+  margin-bottom: 40px;
+
+  &__position {
+    @include font(16px, 1.25, 700);
+    color: #000000;
+    margin-bottom: 10px;
+  }
+
+  &__organization {
+    @include font(16px, 1.25, 700);
+    color: #fb6d3a;
+  }
+
+  &__list {
+    padding: 0px;
+    margin-left: 15px;
+  }
+
+  &__item {
+    @include font(14px, 1.7, 500);
+    color: #595959;
+  }
+}
+
+.period {
+  @include font(12px, 1.25, 500);
+  color: #a8a8a8;
+  margin-bottom: 10px;
+}
+
+.line {
+  @include font(12px, 1.25, 500);
+  color: #000000;
+}
