@@ -15,19 +15,16 @@
 }
 
 .thumb {
-  max-height: 480px;
-  max-width: 480px;
   margin: 0 auto 30px auto;
 
   @media screen and (min-width: $tablet) {
-    height: 380px;
+    height: 300px;
     width: 300px;
     margin-bottom: 50px;
   }
 }
 
 .photo {
-  max-height: 480px;
   margin: 0 auto;
 }
 
