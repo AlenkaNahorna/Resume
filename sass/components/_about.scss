@@ -2,17 +2,17 @@
   margin-bottom: 40px;
 
   &__position {
-    @include font(14px, 1.2, 700);
+    @include font(22px, 1.2, 700);
     font-style: normal;
     color: #000000;
 
     margin-bottom: 20px;
   }
   &__name {
-    @include font(45px, 1.2, 700);
+    @include font(30px, 1.2, 700);
     color: #000000;
 
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
   &__description {
     @include font(14px, 1.7, 500);

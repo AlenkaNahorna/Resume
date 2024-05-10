@@ -55,3 +55,9 @@ body {
     padding: 60px 80px;
   }
 }
+
+.title {
+  @include font(22px, 1.2, 700);
+  color: #000000;
+  margin-bottom: 10px;
+}

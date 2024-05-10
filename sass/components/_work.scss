@@ -11,9 +11,14 @@
     margin-bottom: 10px;
   }
 
-  &__organization {
+  &__organization-main {
     @include font(16px, 1.25, 700);
     color: #fb6d3a;
+  }
+
+  &__organization {
+    @include font(14px, 1.25, 700);
+    color: #595959;
   }
 
   &__list {
@@ -28,8 +33,8 @@
 }
 
 .period {
-  @include font(12px, 1.25, 500);
-  color: #a8a8a8;
+  @include font(14px, 1.7, 500);
+  color: #595959;
   margin-bottom: 10px;
 }
 

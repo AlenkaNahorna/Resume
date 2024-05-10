@@ -21,12 +21,6 @@
   }
 }
 
-.title {
-  @include font(22px, 1.2, 700);
-  color: #000000;
-  margin-bottom: 10px;
-}
-
 .project-name {
   @include font(14px, 1.7, 500);
   color: #595959;

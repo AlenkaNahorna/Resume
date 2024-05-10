@@ -15,7 +15,7 @@ img {
 
 body {
   margin: 8px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
 
@@ -34,20 +34,17 @@ body {
   padding: 0 15px;
   margin: 0 auto;
 }
-
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
 }
-
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
     flex-direction: row-reverse;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
@@ -59,40 +56,43 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 10px 15px;
 }
-
 @media screen and (min-width: 768px) {
   .Main_content {
     padding: 20px 30px;
   }
 }
-
 @media screen and (min-width: 1200px) {
   .Main_content {
     padding: 60px 80px;
   }
 }
 
+.title {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
 .about {
   margin-bottom: 40px;
 }
-
 .about__position {
-  font-size: 14px;
+  font-size: 22px;
   line-height: 1.2;
   font-weight: 700;
   font-style: normal;
   color: #000000;
   margin-bottom: 20px;
 }
-
 .about__name {
-  font-size: 45px;
+  font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
-
 .about__description {
   font-size: 14px;
   line-height: 1.7;
@@ -103,38 +103,26 @@ body {
 .projects {
   margin: 30px 0;
 }
-
 @media screen and (min-width: 768px) {
   .projects {
     margin-bottom: 50px;
   }
 }
-
 .projects__list {
   padding: 0px;
   margin-left: 15px;
 }
-
 .projects__item {
   font-size: 14px;
   line-height: 1.7;
   font-weight: 700;
   color: #000000;
 }
-
 .projects__link {
   font-size: 16px;
   line-height: 1.25;
   font-weight: 700;
   color: #fb6d3a;
-}
-
-.title {
-  font-size: 22px;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #000000;
-  margin-bottom: 10px;
 }
 
 .project-name {
@@ -148,13 +136,11 @@ body {
 .work {
   margin-bottom: 30px;
 }
-
 @media screen and (min-width: 768px) {
   .work {
     margin-bottom: 40px;
   }
 }
-
 .work__position {
   font-size: 16px;
   line-height: 1.25;
@@ -162,19 +148,22 @@ body {
   color: #000000;
   margin-bottom: 10px;
 }
-
-.work__organization {
+.work__organization-main {
   font-size: 16px;
   line-height: 1.25;
   font-weight: 700;
   color: #fb6d3a;
 }
-
+.work__organization {
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 700;
+  color: #595959;
+}
 .work__list {
   padding: 0px;
   margin-left: 15px;
 }
-
 .work__item {
   font-size: 14px;
   line-height: 1.7;
@@ -183,10 +172,10 @@ body {
 }
 
 .period {
-  font-size: 12px;
-  line-height: 1.25;
+  font-size: 14px;
+  line-height: 1.7;
   font-weight: 500;
-  color: #a8a8a8;
+  color: #595959;
   margin-bottom: 10px;
 }
 
@@ -200,12 +189,10 @@ body {
 .education {
   margin-bottom: 10px;
 }
-
 .education__list {
   padding: 0px;
   margin-left: 15px;
 }
-
 .education__item {
   font-size: 14px;
   line-height: 1.7;
@@ -233,7 +220,6 @@ body {
   background-color: #1e2939;
   padding: 40px 0;
 }
-
 @media screen and (max-width: 767px) {
   .sidebar {
     display: none;
@@ -244,7 +230,6 @@ body {
   background-color: #1e2939;
   padding: 30px 0;
 }
-
 @media screen and (min-width: 768px) {
   .sidebar-mobile {
     display: none;
@@ -254,7 +239,6 @@ body {
 .thumb {
   margin: 0 auto 30px auto;
 }
-
 @media screen and (min-width: 768px) {
   .thumb {
     height: 300px;
@@ -276,7 +260,6 @@ body {
 .contacts {
   margin-bottom: 30px;
 }
-
 @media screen and (min-width: 768px) {
   .contacts {
     margin-bottom: 50px;
@@ -309,7 +292,6 @@ body {
 .tech_skills {
   margin-bottom: 30px;
 }
-
 @media screen and (min-width: 768px) {
   .tech_skills {
     margin-bottom: 45px;
@@ -334,5 +316,4 @@ body {
   font-size: 14px;
   line-height: 1.7;
   font-weight: 500;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
